@@ -46,6 +46,7 @@ body {
   background: var(--card-bg);
   border-radius: 1rem;
   margin-bottom: 2rem;
+  box-shadow: 1px 5px 200px rgba(0, 0, 0, 0.5);
 }
 
 .card .main-img {
@@ -77,7 +78,7 @@ body {
 }
 .card-title {
   color: var(--white);
-  margin: 1.5em 0;
+  margin: 1em 0;
   letter-spacing: 0.5px;
   transition: all 0.3s;
 }
@@ -114,6 +115,7 @@ body {
   justify-content: flex-start;
   align-items: center;
   gap: 20px;
+  font-weight: 300;
 }
 .avtar img {
   width: 3rem;
